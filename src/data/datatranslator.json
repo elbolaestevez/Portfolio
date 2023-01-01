@@ -1,0 +1,22 @@
+{
+  "english": {
+    "aboutme": "During a time practicing my career as an Accountant, I learned a lot about teamwork due to my experience in the tax sector when I worked for one of the 4 Big Four, Pwc (PriceWaterhouseCoopers).I lived for a time in Barcelona where I came into contact with the tech environment where I was surprised by the power of creativity and freedom that this offered, giving a strong turn to my life I decided to study it. I started the platform 5 bootcamp where each step I passed increased my passion for the IT world, being much more entertaining than it was before. I have been looking for something that I like and that is in keeping with who I am for a long time and now that I have found it, I am not going to stop.",
+    "viewWork": "ViewWork",
+    "about": "About",
+    "skills": "Skills",
+    "work": "Work",
+    "contact": "Contact",
+    "hola": "Hello. How are they?",
+    "submit": "Send"
+  },
+  "spanish": {
+    "aboutme": "Durante un tiempo ejerciendo mi carrera como Contador, aprendí mucho del trabajo en equipo debido a mi experiencia en el sector impositivo cuando trabajé para una de las 4 Big Four, Pwc (PriceWaterhouseCoopers).Viví un tiempo en Barcelona dónde entré en contacto con el ambiente tech en dónde me sorprendió el poder de creatividad y libertad que esto brindaba, dándole un fuerte giro a mi vida decidí estudiarlo. Empecé el bootcamp de plataforma 5 dónde cada escalón que superaba aumentaba mi pasión por el mundo de las IT, siendo mucho más entretenido de lo que hacía anteriormente. Hace mucho que buscaba algo que me guste y que sea acorde a quien soy y ahora que lo encontré no voy a parar",
+    "viewWork": "Mira los trabajos",
+    "about": "Acerca",
+    "skills": "Herramientas",
+    "work": "Trabajo",
+    "contact": "Contacto",
+    "hola": "Hola, ¿Cómo estan?",
+    "submit": "Enviar"
+  }
+}
