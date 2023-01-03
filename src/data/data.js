@@ -19,7 +19,7 @@ export const data = [
   },
   {
     id: 3,
-    name: "Movie tmdb",
+    name: "Movietmdb",
     image: WorkIm,
     github: "https://github.com/elbolaestevez/MoviesTmdb",
     live: "",

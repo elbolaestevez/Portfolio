@@ -7,7 +7,8 @@ import Work from "./components/Work";
 import { translatorwords } from "./context/translator";
 import { useState, useEffect } from "react";
 import Translation from "../src/data/datatranslator.json";
-
+import { Route, Routes } from "react-router-dom";
+import MovieTmdb from "./components/projects/MovieTmdb";
 function App() {
   const [language, setLanguage] = useState("spanish");
   const [content, setContent] = useState({});
@@ -36,12 +37,19 @@ function App() {
     <div>
       <translatorwords.Provider value={Translator}>
         <Navbar />
+        <Routes>
+          <Route
+            element={[<Home />, <About />, <Skills />, <Work />, <Contact />]}
+            path="/"
+          />
+          {/* <Home />
+          <About />
+          <Skills />
+          <Work />
+          <Contact /> */}
 
-        <Home />
-        <About />
-        <Skills />
-        <Work />
-        <Contact />
+          <Route element={<MovieTmdb />} path="/Movietmdb" />
+        </Routes>
       </translatorwords.Provider>
     </div>
   );

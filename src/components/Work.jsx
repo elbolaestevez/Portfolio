@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { translatorwords } from "../context/translator";
 import { data } from "../data/data.js";
-
+import { Link } from "react-router-dom";
 const Work = () => {
   const project = data;
 
@@ -32,7 +32,7 @@ const Work = () => {
               {/* Hover effect for images */}
               <div className="opacity-0 group-hover:opacity-100 ">
                 <span className="text-2xl font bold text-white tracking-wider ">
-                  {item.name}
+                  <Link to={item.name}>{item.name}</Link>
                 </span>
                 <div className="pt-8 text-center ">
                   {/* eslint-disable-next-line */}
