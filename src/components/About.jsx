@@ -19,11 +19,11 @@ const About = () => {
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
+          <div className="sm:text-right md:text-3xl font-bold">
             <p>{content.hola}</p>
           </div>
           <div>
-            <p className=" md:text-3xl font-style: italic sm:base">
+            <p className=" md:text-2xl font-style: italic sm:base">
               {content.aboutme}
             </p>
           </div>
