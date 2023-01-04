@@ -9,6 +9,7 @@ import { useState, useEffect } from "react";
 import Translation from "../src/data/datatranslator.json";
 import { Route, Routes } from "react-router-dom";
 import MovieTmdb from "./components/projects/MovieTmdb";
+import ECommerceComida from "./components/projects/ECommerceComida";
 function App() {
   const [language, setLanguage] = useState("spanish");
   const [content, setContent] = useState({});
@@ -42,13 +43,9 @@ function App() {
             element={[<Home />, <About />, <Skills />, <Work />, <Contact />]}
             path="/"
           />
-          {/* <Home />
-          <About />
-          <Skills />
-          <Work />
-          <Contact /> */}
 
           <Route element={<MovieTmdb />} path="/Movietmdb" />
+          <Route element={<ECommerceComida />} path="/E-CommerceComidas" />
         </Routes>
       </translatorwords.Provider>
     </div>

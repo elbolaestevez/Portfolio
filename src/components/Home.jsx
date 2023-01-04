@@ -6,7 +6,7 @@ const Home = () => {
   const { setC, setL, language, content } = useContext(translatorwords);
   console.log(language);
   return (
-    <div name="home" className="w-full h-screen pt-16 bg-[#0a192f]">
+    <div name="home" className="w-full h-screen pt-16 bg-[#0a192f]" id="home">
       <div className="mt-5">
         <select
           className="block mx-auto  p-2  text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"

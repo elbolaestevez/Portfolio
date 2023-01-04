@@ -12,7 +12,7 @@ export const data = [
   },
   {
     id: 2,
-    name: "Como-en-casa E-commerce",
+    name: "E-CommerceComidas",
     image: RealEst,
     github: "https://github.com/elbolaestevez/Como-en-casa",
     live: "",

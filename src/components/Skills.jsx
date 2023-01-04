@@ -16,7 +16,11 @@ import Ethereum from "../assets/ethereum.png";
 const Skills = () => {
   const { setC, setL, language, content } = useContext(translatorwords);
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div
+      name="skills"
+      className="w-full h-screen bg-[#0a192f] text-gray-300"
+      id="skills"
+    >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>

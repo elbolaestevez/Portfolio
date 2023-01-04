@@ -4,7 +4,9 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { translatorwords } from "../context/translator";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
+
 import Santipdf from "../assets/Santiago.pdf";
 
 const Navbar = () => {
@@ -14,37 +16,39 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <p class="text-3xl sm:text-5xl font-bold text-[#ccd6f6]">
-          SANTI ESTEVEZ
-        </p>
+        <Link to="/" smooth={true} duration={500}>
+          <p class="text-3xl sm:text-5xl font-bold text-[#ccd6f6]">
+            SANTI ESTEVEZ
+          </p>
+        </Link>
       </div>
 
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <a href="#home" smooth={true} duration={500}>
             Home
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
+          <a href="#about" smooth={true} duration={500}>
             {content.about}
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <a href="#skills" smooth={true} duration={500}>
             {content.skills}
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500}>
+          <a href="#work" smooth={true} duration={500}>
             {content.work}
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <a href="#contact" smooth={true} duration={500}>
             {content.contact}
-          </Link>
+          </a>
         </li>
       </ul>
 
