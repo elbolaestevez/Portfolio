@@ -20,14 +20,14 @@ const Home = () => {
         </select>
       </div>
 
-      <div className="max-w-[1000px] mx-auto flex flex-col justify-center h-full">
+      <div className="max-w-[1000px] mx-auto flex flex-col justify-center ">
         <img
-          className="w-6/12 mx-auto pb-1.5 mb-10"
+          className="w-6/12 mx-auto pb-1.5 mb-10 md:w-4/12 md:mt-12	mt-20"
           src={Santi}
           alt="HTML icon"
         />
 
-        <h2 className="text-4xl pt-3 mx-auto sm:text-5xl font-bold text-[#ccd6f6]">
+        <h2 className="text-4xl  mx-auto sm:text-5xl font-bold text-[#ccd6f6] text-center">
           Full Stack Developer.
         </h2>
         <p className=" mx-auto text-[#8892b0] py-4 max-w-[700px]"></p>
