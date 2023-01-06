@@ -13,9 +13,14 @@ const Work = () => {
       id="work"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
+        <div className="pb-8 text-center	">
+          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 ">
             {content.work}
+          </p>
+          <p className="mt-8">
+            (leer, si haces click en Code, te lleva a github. Si haces click en
+            Live te lleva al video, si haces click en el titulo te lleva a la
+            descripcion del proyecto)
           </p>
         </div>
 

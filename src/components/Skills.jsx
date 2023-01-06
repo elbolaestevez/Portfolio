@@ -23,7 +23,7 @@ const Skills = () => {
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div>
+        <div className="justify-center text-center	">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
             {content.skills}
           </p>
