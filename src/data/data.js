@@ -24,11 +24,4 @@ export const data = [
     github: "https://github.com/elbolaestevez/MoviesTmdb",
     live: "",
   },
-  {
-    // id: 4,
-    // name: "React JS Application",
-    // image: RealEst,
-    // github: "",
-    // live: "",
-  },
 ];

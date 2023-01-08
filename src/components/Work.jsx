@@ -18,9 +18,9 @@ const Work = () => {
             {content.work}
           </p>
           <p className="mt-8">
-            (leer, si haces click en Code, te lleva a github. Si haces click en
-            Live te lleva al video, si haces click en el titulo te lleva a la
-            descripcion del proyecto)
+            (<b>Leer</b>:Si haces click en Code, te lleva a github y si haces
+            click en el título te lleva a la descripción del proyecto(con todas
+            sus fotos))
           </p>
         </div>
 
@@ -36,7 +36,7 @@ const Work = () => {
             >
               {/* Hover effect for images */}
               <div className="opacity-0 group-hover:opacity-100 ">
-                <span className="text-2xl font bold text-white tracking-wider ">
+                <span className="text-2xl font bold text-white tracking-wider hover:bg-sky-700 ">
                   <Link to={item.name}>{item.name}</Link>
                 </span>
                 <div className="pt-8 text-center ">
@@ -50,14 +50,14 @@ const Work = () => {
                     </button>
                   </a>
                   {/* eslint-disable-next-line */}
-                  <a href={item.live} target="_blank">
+                  {/* <a href={item.live} target="_blank">
                     <button
                       className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
                     >
                       Live
                     </button>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
