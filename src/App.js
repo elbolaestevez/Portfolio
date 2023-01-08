@@ -10,6 +10,7 @@ import Translation from "../src/data/datatranslator.json";
 import { Route, Routes } from "react-router-dom";
 import MovieTmdb from "./components/projects/MovieTmdb";
 import ECommerceComida from "./components/projects/ECommerceComida";
+import Itesa from "./components/projects/Itesa";
 function App() {
   const [language, setLanguage] = useState("spanish");
   const [content, setContent] = useState({});
@@ -43,7 +44,7 @@ function App() {
             element={[<Home />, <About />, <Skills />, <Work />, <Contact />]}
             path="/"
           />
-
+          <Route element={<Itesa />} path="/ItesaBlockchain" />
           <Route element={<MovieTmdb />} path="/Movietmdb" />
           <Route element={<ECommerceComida />} path="/E-CommerceComidas" />
         </Routes>

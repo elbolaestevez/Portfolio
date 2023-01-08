@@ -5,7 +5,7 @@ import Itesa from "../assets/projects/itesahome.png";
 export const data = [
   {
     id: 1,
-    name: "Itesa Blockchain",
+    name: "ItesaBlockchain",
     image: Itesa,
     github: "https://github.com/elbolaestevez/Itesa-viral-p5",
     live: "",
