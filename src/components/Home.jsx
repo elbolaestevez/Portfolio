@@ -27,10 +27,17 @@ const Home = () => {
           alt="HTML icon"
         />
 
-        <h2 className="text-4xl  mx-auto sm:text-5xl font-bold text-[#ccd6f6] text-center">
-          Full Stack Developer.
-        </h2>
         <p className=" mx-auto text-[#8892b0] py-4 max-w-[700px]"></p>
+        <header className="mb-16 group">
+          <h1 className="mb-1 font-mono text-4xl text-gray-100 md:text-6xl text-center">
+            <br className="block md:hidden" />
+            <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform text-center">
+              FullStack Developer
+            </span>
+            👋
+            <span className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>
+          </h1>
+        </header>
         <div>
           <button className="mx-auto text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
             <a href="#work">{content.viewWork}</a>
