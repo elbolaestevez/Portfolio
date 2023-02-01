@@ -8,20 +8,20 @@ export const data = [
     name: "ItesaBlockchain",
     image: Itesa,
     github: "https://github.com/elbolaestevez/Itesa-viral-p5",
-    live: "",
+    live: "https://drive.google.com/file/d/1dxpVGhuuzONl0JJdek2kxgNqra4B8Qld/view?usp=share_link",
   },
   {
     id: 2,
     name: "E-CommerceComidas",
     image: RealEst,
     github: "https://github.com/elbolaestevez/Como-en-casa",
-    live: "",
+    live: "https://drive.google.com/file/d/1KtUqWKfR5q-PfEfqu3g9IcqMrYKHCkJ8/view?usp=share_link",
   },
   {
     id: 3,
     name: "Movietmdb",
     image: WorkIm,
     github: "https://github.com/elbolaestevez/MoviesTmdb",
-    live: "",
+    live: "https://drive.google.com/file/d/1mjAGbEX316CuJ7W-a3O2-GI68TLGKAdi/view?usp=share_link",
   },
 ];
