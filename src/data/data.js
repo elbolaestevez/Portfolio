@@ -1,7 +1,7 @@
 import WorkIm from "../assets/projects/Movietmdb.png";
 import RealEst from "../assets/projects/ComoenCasa.png";
 import Itesa from "../assets/projects/itesahome.png";
-let g = hola;
+
 export const data = [
   {
     id: 1,
