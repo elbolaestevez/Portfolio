@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen pt-5 bg-[#0a192f] text-gray-300"
+      className="w-full h-screen pt-5 bg-[#0a192f] text-gray-300 md:mt-10 "
       id="about"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
@@ -19,11 +19,11 @@ const About = () => {
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right md:text-3xl font-bold">
+          <div className="sm:text-right md:text-2xl font-bold">
             <p>{content.hola}</p>
           </div>
           <div>
-            <p className=" md:text-2xl font-style: italic sm:base">
+            <p className=" md:text-lg font-style: italic sm:base">
               {content.aboutme}
             </p>
           </div>

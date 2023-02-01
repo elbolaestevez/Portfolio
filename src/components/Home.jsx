@@ -22,7 +22,7 @@ const Home = () => {
 
       <div className="max-w-[1000px] mx-auto flex flex-col justify-center ">
         <img
-          className="w-6/12 mx-auto pb-1.5 mb-10 md:w-4/12 md:mt-12	mt-20"
+          className="w-6/12 mx-auto pb-1.5 mb-10 md:w-3/12 md:mt-12	mt-20"
           src={Santi}
           alt="HTML icon"
         />
@@ -31,11 +31,11 @@ const Home = () => {
         <header className="mb-16 group">
           <h1 className="mb-1 font-mono text-4xl text-gray-100 md:text-6xl text-center">
             <br className="block md:hidden" />
-            <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform text-center">
+            <span className="md:inline-flex  h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform text-center">
               FullStack Developer
             </span>
             👋
-            <span className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>
+            <span className="box-border md:inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>
           </h1>
         </header>
         <div>

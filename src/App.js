@@ -36,7 +36,7 @@ function App() {
   }, [language]);
 
   return (
-    <div>
+    <div className="bg-[#0a192f]">
       <translatorwords.Provider value={Translator}>
         <Navbar />
         <Routes>
