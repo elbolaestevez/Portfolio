@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { translatorwords } from "../context/translator";
 const Contact = () => {
   const { setC, setL, language, content } = useContext(translatorwords);
+  console.log("holaa");
   return (
     <div
       name="contact"
