@@ -7,7 +7,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 // import { Link } from "react-scroll";
 import { Link } from "react-router-dom";
 
-import Santipdf from "../assets/Santiago.pdf";
+import Santipdf from "../assets/Santiago2023.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
