@@ -40,8 +40,10 @@ const Home = () => {
         </header>
         <div>
           <button className="mx-auto text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
-            <a href="#work">{content.viewWork}</a>
-            <span className=" group-hover:rotate-90 duration-300">
+            <a className="w-full" href="#work">
+              {content.viewWork}
+            </a>
+            <span className=" group-hover:rotate-90 duration-300 ">
               <HiArrowNarrowRight className="ml-3 " />
             </span>
           </button>
