@@ -1,6 +1,7 @@
 import WorkIm from "../assets/projects/Movietmdb.png";
 import RealEst from "../assets/projects/ComoenCasa.png";
 import Itesa from "../assets/projects/itesahome.png";
+import Tinder from "../assets/projects/tinder.png";
 
 export const data = [
   {
@@ -23,5 +24,12 @@ export const data = [
     image: WorkIm,
     github: "https://github.com/elbolaestevez/MoviesTmdb",
     live: "https://drive.google.com/file/d/1mjAGbEX316CuJ7W-a3O2-GI68TLGKAdi/view?usp=share_link",
+  },
+  {
+    id: 4,
+    name: "TinderMusic",
+    image: Tinder,
+    github: "https://github.com/elbolaestevez/MelodiUs/tree/main/tinder",
+    live: "https://drive.google.com/file/d/1UWnZxhrSZk0JhtQgI6Jd14Je27rl13DT/view?usp=share_link",
   },
 ];
