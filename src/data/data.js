@@ -1,7 +1,7 @@
 import WorkIm from "../assets/projects/Movietmdb.png";
-import RealEst from "../assets/projects/ComoenCasa.png";
+import RealEst from "../assets/projects/Productos-E-Commerce.png";
 import Itesa from "../assets/projects/itesahome.png";
-import Tinder from "../assets/projects/Tinder.png";
+import Tinder from "../assets/projects/Tinder2.png";
 
 export const data = [
   {
