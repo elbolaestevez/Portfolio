@@ -12,7 +12,8 @@ import Mongo from "../assets/mongo.png";
 import Web3 from "../assets/Web3.png";
 import Metamask from "../assets/metamask.png";
 import Ethereum from "../assets/ethereum.png";
-
+import Tailwind from "../assets/tailwind.png";
+import Nexjs from "../assets/Nextjs.png";
 const Skills = () => {
   const { setC, setL, language, content } = useContext(translatorwords);
   return (
@@ -69,8 +70,17 @@ const Skills = () => {
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-16 mx-auto" src={Metamask} alt="HTML icon" />
-            <p className="my-4">METAMASK</p>
+            <img className="w-16 mx-auto" src={Ethereum} alt="HTML icon" />
+            <p className="my-4">Ethereum</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-16 mx-auto" src={Tailwind} alt="HTML icon" />
+            <p className="my-4">Tailwind</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-16 mx-auto mt-5" src={Nexjs} alt="HTML icon" />
+            <p className="my-4">Nextjs</p>
           </div>
         </div>
       </div>
