@@ -9,7 +9,7 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="w-full md:h-screen text-gray-300 bg-[#0a192f]"
+      className="w-full sm:h-screen text-gray-300 bg-[#0a192f]"
       id="work"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -18,14 +18,13 @@ const Work = () => {
             {content.work}
           </p>
           <p className="mt-8">
-            (<b>Leer</b>:Si haces click en Code, te lleva a github y si haces
-            click en el título te lleva a la descripción del proyecto(con todas
-            sus fotos))
+            (<b>{content.read}</b>:{content.read1}))
           </p>
+          <p>{content.read2}</p>
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 sm:grid-cols-3 gap-4">
           {/* Gird Item */}
           {project.map((item, index) => (
             <div
@@ -39,6 +38,7 @@ const Work = () => {
                 <span className="text-2xl font bold text-white tracking-wider hover:bg-sky-700 ">
                   <Link to={item.name}>{item.name}</Link>
                 </span>
+                <p className="text-xs">{item.description}</p>
                 <div className="pt-8 text-center ">
                   {/* eslint-disable-next-line */}
                   <a href={item.github} target="_blank">

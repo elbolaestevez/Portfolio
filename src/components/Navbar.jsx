@@ -26,7 +26,7 @@ const Navbar = () => {
         </Link>
       </div>
       {showMenu && (
-        <ul className="hidden md:flex">
+        <ul className="hidden sm:flex">
           <li>
             <a href="/" smooth={true} duration={500}>
               Home
@@ -56,7 +56,7 @@ const Navbar = () => {
       )}
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="sm:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 

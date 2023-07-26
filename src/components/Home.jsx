@@ -22,31 +22,32 @@ const Home = () => {
 
       <div className="max-w-[1000px] mx-auto flex flex-col justify-center ">
         <img
-          className="w-6/12 mx-auto pb-1.5 mb-10 md:w-3/12 md:mt-12	mt-20"
+          className="w-6/12 mx-auto pb-1.5 mb-10 sm:w-3/12 sm:mt-12	mt-20"
           src={Santi}
           alt="HTML icon"
         />
 
         <p className=" mx-auto text-[#8892b0] py-4 max-w-[700px]"></p>
         <header className="mb-16 group">
-          <h1 className="mb-1 font-mono text-4xl text-gray-100 md:text-6xl text-center">
-            <br className="block md:hidden" />
-            <span className="md:inline-flex  h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform text-center">
+          <h1 className="mb-1 font-mono text-4xl text-gray-100 sm:text-6xl text-center">
+            <br className="block sm:hidden" />
+            <span className="sm:inline-flex  h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform text-center">
               FullStack Developer
             </span>
             👋
-            <span className="box-border md:inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>
+            <span className="box-border sm:inline-block w-1 h-10 ml-2 -mb-2 bg-white sm:-mb-4 sm:h-16 animate-cursor will-change-transform"></span>
           </h1>
         </header>
         <div>
-          <button className="mx-auto text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
-            <a className="w-full" href="#work">
+          <a className="w-full bg-yellow-300" href="#work">
+            <button className="mx-auto text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
               {content.viewWork}
-            </a>
-            <span className=" group-hover:rotate-90 duration-300 ">
-              <HiArrowNarrowRight className="ml-3 " />
-            </span>
-          </button>
+
+              <span className=" group-hover:rotate-90 duration-300 ">
+                <HiArrowNarrowRight className="ml-3 " />
+              </span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
