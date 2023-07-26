@@ -16,7 +16,7 @@ const Itesa = () => {
   const { setC, setL, language, content } = useContext(translatorwords);
 
   return (
-    <div className="w-full h-full pt-16 bg-[#0a192f] mb-20">
+    <div className="w-full  pt-16 bg-[#0a192f]">
       <div className="mb-36 mt-20 ">
         <img
           className="w-3/5 mx-auto sm:w-2/5 mx-auto  "
@@ -24,7 +24,7 @@ const Itesa = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             Esta es la primera página que podemos ver en el proyecto. Para poder
             ir a nuestro home uno necesita registrarse, por lo tanto abajo se
             ven dos iconos para registrarse y luego loguiarse.
@@ -38,7 +38,7 @@ const Itesa = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             Acá el usuario se loguea a la página web, también puede tocar que se
             olvidó la contraseña, y le va a llegar un mail al usuario para
             recuperarla. También podemos visualizar lo que escribimos en la
@@ -54,7 +54,7 @@ const Itesa = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             Aca el usuario se regista a nuestra página y tiene un código de
             referido para aumentar los referidos del usuario que te recomienda.
           </p>
@@ -67,7 +67,7 @@ const Itesa = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             Doble código de verificación que te llega por mail para hacer mas
             segura la página.
           </p>
@@ -80,7 +80,7 @@ const Itesa = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             Esta es la página principal de nuestra página una vez loguiado. Acá
             podemos ver muchas cosas. En principio, tenemos el nombre de nuestro
             Token llamado"TukiTokens" con tu balance abajo. Tenemos la posición
@@ -107,7 +107,7 @@ const Itesa = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             Cuando colocamos conectar billetera, se nos conecta con Metamask, en
             este caso al tener tokens por reclamar podemos reclamar y se nos va
             a agregar al balance.
@@ -121,7 +121,7 @@ const Itesa = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             Acá vemos algunos de los mails que nos llega al mail, usando la
             librería nodemailer.
           </p>
@@ -134,7 +134,7 @@ const Itesa = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             Acá podemos ver el ranking de los usuarios.
           </p>
         </div>
@@ -146,19 +146,19 @@ const Itesa = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             Acá podemos modificar nuestros premios y borrarlos.
           </p>
         </div>
       </div>
-      <div className="mb-36 mt-20">
+      <div className="">
         <img
           className="w-3/5 mx-auto sm:w-1/5 mx-auto"
           src={Milestone}
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className=" text-2x1 text-white text-justify font-serif sm:text-2xl">
             Acá el usuario puede ver la cantidad de tokens por cantidad de
             referidos y el color verde son la que cumplió y en rojo las que no.
           </p>

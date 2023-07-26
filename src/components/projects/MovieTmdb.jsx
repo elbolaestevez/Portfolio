@@ -9,7 +9,7 @@ const MovieTmdb = () => {
   const { setC, setL, language, content } = useContext(translatorwords);
 
   return (
-    <div className="w-full h-full pt-16 bg-[#0a192f] mb-20">
+    <div className="w-full h-full pt-16 bg-[#0a192f]">
       <div className="mb-36 mt-20">
         <img
           className="w-4/5 mx-auto sm:w-2/5 mx-auto"
@@ -17,7 +17,7 @@ const MovieTmdb = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             {content.mhome}
           </p>
         </div>
@@ -29,7 +29,7 @@ const MovieTmdb = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             {content.mdetalle}
           </p>
         </div>
@@ -42,19 +42,19 @@ const MovieTmdb = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             {content.mfavoritos}
           </p>
         </div>
       </div>
-      <div className="mb-36 mt-20">
+      <div className="">
         <img
           className="w-4/5 mx-auto sm:w-2/5 mx-auto"
           src={Registro}
           alt="HTML icon"
         />
-        <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+        <div className="w-2/4  mx-auto ">
+          <p className="text-2x1 text-white text-justify font-serif sm:text-2xl">
             {content.mregistro}
           </p>
         </div>

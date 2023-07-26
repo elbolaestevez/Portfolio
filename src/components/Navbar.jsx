@@ -5,14 +5,17 @@ import { translatorwords } from "../context/translator";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 // import { Link } from "react-scroll";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import Santipdf from "../assets/Santiago2023.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const { pathname } = useLocation();
   const handleClick = () => setNav(!nav);
-  const { setC, setL, language, content } = useContext(translatorwords);
+
+  const showMenu = pathname === "/";
+  const { content } = useContext(translatorwords);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
@@ -22,35 +25,35 @@ const Navbar = () => {
           </p>
         </Link>
       </div>
-
-      {/* menu */}
-      <ul className="hidden md:flex">
-        <li>
-          <a href="#home" smooth={true} duration={500}>
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#about" smooth={true} duration={500}>
-            {content.about}
-          </a>
-        </li>
-        <li>
-          <a href="#skills" smooth={true} duration={500}>
-            {content.skills}
-          </a>
-        </li>
-        <li>
-          <a href="#work" smooth={true} duration={500}>
-            {content.work}
-          </a>
-        </li>
-        <li>
-          <a href="#contact" smooth={true} duration={500}>
-            {content.contact}
-          </a>
-        </li>
-      </ul>
+      {showMenu && (
+        <ul className="hidden md:flex">
+          <li>
+            <a href="/" smooth={true} duration={500}>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#about" smooth={true} duration={500}>
+              {content.about}
+            </a>
+          </li>
+          <li>
+            <a href="#skills" smooth={true} duration={500}>
+              {content.skills}
+            </a>
+          </li>
+          <li>
+            <a href="#work" smooth={true} duration={500}>
+              {content.work}
+            </a>
+          </li>
+          <li>
+            <a href="#contact" smooth={true} duration={500}>
+              {content.contact}
+            </a>
+          </li>
+        </ul>
+      )}
 
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">

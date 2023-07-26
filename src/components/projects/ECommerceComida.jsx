@@ -19,7 +19,7 @@ const ECommerceComida = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             {content.ehome}
           </p>
         </div>
@@ -31,7 +31,7 @@ const ECommerceComida = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             {content.eproductos}
           </p>
         </div>
@@ -43,7 +43,7 @@ const ECommerceComida = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             {content.edetalle}
           </p>
         </div>
@@ -55,7 +55,7 @@ const ECommerceComida = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             {content.ecarrito}
           </p>
         </div>
@@ -68,7 +68,7 @@ const ECommerceComida = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             {content.epedidos}
           </p>
         </div>
@@ -80,20 +80,20 @@ const ECommerceComida = () => {
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-2xl">
             {content.ecalificaciones}
           </p>
         </div>
       </div>
 
-      <div className="mb-36 mt-20">
+      <div className=" mt-20">
         <img
           className="w-4/5 mx-auto sm:w-2/5 mx-auto"
           src={Admin}
           alt="HTML icon"
         />
         <div className=" w-2/4  mx-auto ">
-          <p className="my-4 text-2x1 text-white text-justify font-serif sm:text-4xl">
+          <p className="text-2x1 text-white text-justify font-serif sm:text-2xl">
             {content.eadmin}
           </p>
         </div>
