@@ -27,11 +27,7 @@ const Navbar = () => {
       </div>
       {showMenu && (
         <ul className="hidden sm:flex">
-          <li>
-            <a href="/" smooth={true} duration={500}>
-              Home
-            </a>
-          </li>
+    
           <li>
             <a href="#about" smooth={true} duration={500}>
               {content.about}

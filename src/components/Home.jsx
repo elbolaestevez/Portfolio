@@ -4,7 +4,7 @@ import { translatorwords } from "../context/translator";
 import Santi from "../assets/Santi.png";
 const Home = () => {
   const { setC, setL, language, content } = useContext(translatorwords);
-  console.log(language);
+
   return (
     <div name="home" className="w-full h-screen pt-16 bg-[#0a192f]" id="home">
       <div className="mt-5">
@@ -29,7 +29,7 @@ const Home = () => {
 
         <p className=" mx-auto text-[#8892b0] py-4 max-w-[700px]"></p>
         <header className="mb-16 group">
-          <h1 className="mb-1 font-mono text-4xl text-gray-100 sm:text-6xl text-center">
+          <h1 className="mb-1 font-mono text-3xl  text-gray-100 sm:text-6xl text-center">
             <br className="block sm:hidden" />
             <span className="sm:inline-flex  h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform text-center">
               FullStack Developer
