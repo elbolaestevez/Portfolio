@@ -18,16 +18,15 @@ const Navbar = () => {
   const { content } = useContext(translatorwords);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
+      <div className="sm:pt-4">
         <Link to="/" smooth={true} duration={500}>
-          <p class="text-3xl sm:text-5xl font-bold text-[#ccd6f6]">
+          <p class="text-3xl sm:text-4xl font-bold text-[#ccd6f6]">
             SANTI ESTEVEZ
           </p>
         </Link>
       </div>
       {showMenu && (
         <ul className="hidden sm:flex">
-    
           <li>
             <a href="#about" smooth={true} duration={500}>
               {content.about}

@@ -6,7 +6,11 @@ const Home = () => {
   const { setC, setL, language, content } = useContext(translatorwords);
 
   return (
-    <div name="home" className="w-full h-screen pt-16 bg-[#0a192f]" id="home">
+    <div
+      name="home"
+      className="w-full h-screen pt-16 bg-[#0a192f] mb-4 sm:mb-40"
+      id="home"
+    >
       <div className="mt-5">
         <select
           className="block mx-auto  p-2  text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -20,14 +24,14 @@ const Home = () => {
         </select>
       </div>
 
-      <div className="max-w-[1000px] mx-auto flex flex-col justify-center ">
+      <div className=" mx-auto flex flex-col justify-center ">
         <img
-          className="w-6/12 mx-auto pb-1.5 mb-10 sm:w-3/12 sm:mt-12	mt-20"
+          className="w-6/12 mx-auto pb-1.5 mb-10 sm:w-3/12 md:w-3/12 lg:w-2/12 sm:mt-12	mt-20"
           src={Santi}
           alt="HTML icon"
         />
 
-        <p className=" mx-auto text-[#8892b0] py-4 max-w-[700px]"></p>
+        <p className=" mx-auto text-[#8892b0] py-4"></p>
         <header className="mb-16 group">
           <h1 className="mb-1 font-mono text-3xl  text-gray-100 sm:text-6xl text-center">
             <br className="block sm:hidden" />
