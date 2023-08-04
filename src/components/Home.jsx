@@ -11,9 +11,9 @@ const Home = () => {
       className="w-full h-screen pt-16 bg-[#0a192f] mb-4 sm:mb-40"
       id="home"
     >
-      <div className="mt-5">
+      <div className="mt-5 pr-8 flex justify-end">
         <select
-          className="block mx-auto  p-2  text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          className="block p-2 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           value={language}
           onChange={(e) => {
             setL(e.target.value);

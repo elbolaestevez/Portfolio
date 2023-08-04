@@ -1,6 +1,9 @@
 {
   "english": {
     "aboutme": "During my time practicing my career as an Accountant, I learned a lot about teamwork due to my experience in the tax sector when I worked for one of the 4 Big Four, Pwc (PriceWaterhouseCoopers). I lived for a time in Barcelona where I came into contact with the tech environment where I was surprised by the power of creativity and freedom that this offered, giving a strong turn to my life I decided to study development web in the bootcamp of 'Plataforma 5'. As I progressed through the program, my passion for the field of information technology grew exponentially, becoming much more exciting and rewarding than my previous job. I have been looking for something that I truly feel passionate about and that aligns with my true self for a long time, and now that I have found it, I am not going to stop.",
+    "aboutme2": "- I worked 4 years in the area of Accounting: 2 years at PriceWaterHouseCoopers and 2 years at an Argentinian SME.(2017-2021)",
+    "aboutme3": "- I was a programming professor at Plataforma5: I was responsible for teaching theoretical classes on Back in Nodejs and Front in ReactJs. I also mentored their projects and provided feedback. It was a course from Monday to Friday, 9 am to 7 pm.(2023)",
+    "aboutme4": "- I developed a website for the company Clarín (back and front). I used Next.js and Firebase for the project. It is a static news page. It was my first freelance project for the company iteseHub.(2023)",
     "viewWork": "ViewWork",
     "about": "About",
     "skills": "Skills",
@@ -26,6 +29,9 @@
 
   "spanish": {
     "aboutme": "Durante mi tiempo ejerciendo mi carrera como Contador, aprendí mucho del trabajo en equipo debido a mi experiencia en el sector impositivo cuando trabajé para una de las 4 Big Four, Pwc (PriceWaterhouseCoopers). Viví un tiempo en Barcelona donde entré en contacto con el ambiente tech en el que me sorprendió el poder de creatividad y libertad que esto brindaba, dándole un fuerte giro a mi vida decidí estudiar desarrollo web en el bootcamp de 'Plataforma 5'. A medida que avanzaba en el programa, mi pasión por el mundo de las tecnologías de la información crecía exponencialmente, resultando mucho más emocionante y gratificante que mi trabajo anterior. Hace mucho que buscaba algo que me guste y que sea acorde a quien soy, y ahora que lo he encontrado, no voy a parar.",
+    "aboutme2": "- Trabajé 4 años en el área de Contabilidad: 2 años en PriceWaterHouseCoopers y 2 años en una Pyme Argentina.(2017-2021)",
+    "aboutme3": "- Fui profesor de programación en Plataforma5: Era el encargado de dar las clases teóricas de Back en Nodejs y Front en ReactJs. También mentoré sus proyectos y los corregí. Fue un curso de lunes a viernes de 9 am a 7 pm.(2023)",
+    "aboutme4": "- Desarrollé una página para la empresa Clarín (back y front). Usé Next.js y Firebase para el proyecto. Es una página estática de noticias. Fue mi primer proyecto freelance para la empresa iteseHub.(2023)",
     "viewWork": "Mira los trabajos",
     "about": "Acerca",
     "skills": "Herramientas",

@@ -14,12 +14,16 @@ import Metamask from "../assets/metamask.png";
 import Ethereum from "../assets/ethereum.png";
 import Tailwind from "../assets/tailwind.png";
 import Nexjs from "../assets/Nextjs.png";
+import Typescript from "../assets/typescript.png";
+import Docker from "../assets/docker.png";
+import Aws from "../assets/aws.png";
+
 const Skills = () => {
   const { setC, setL, language, content } = useContext(translatorwords);
   return (
     <div
       name="skills"
-      className="w-full h-screen bg-[#0a192f] text-gray-300 mb-40"
+      className="w-full bg-[#0a192f] text-gray-300 mb-40"
       id="skills"
     >
       {/* Container */}
@@ -34,6 +38,10 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-16 mx-auto" src={CSS} alt="HTML icon" />
             <p className="my-4">CSS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-16 mx-auto" src={HTML} alt="HTML icon" />
+            <p className="my-4">Html</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-16 mx-auto" src={JavaScript} alt="HTML icon" />
@@ -59,6 +67,10 @@ const Skills = () => {
             <img className="w-16 mx-auto" src={PostgreSQL} alt="HTML icon" />
             <p className="my-4">POSTGRESQL</p>
           </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-16 mx-auto" src={Typescript} alt="HTML icon" />
+            <p className="my-4">Typescript</p>
+          </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-16 mx-auto" src={FireBase} alt="HTML icon" />
@@ -67,6 +79,10 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-16 mx-auto" src={Web3} alt="HTML icon" />
             <p className="my-4">WEB3</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-16 mx-auto" src={Metamask} alt="HTML icon" />
+            <p className="my-4">Metamask</p>
           </div>
 
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -81,6 +97,14 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-16 mx-auto mt-5" src={Nexjs} alt="HTML icon" />
             <p className="my-4">Nextjs</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-16 mx-auto mt-5" src={Docker} alt="HTML icon" />
+            <p className="my-4">Docker</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-16 mx-auto mt-5" src={Aws} alt="HTML icon" />
+            <p className="my-4">Aws</p>
           </div>
         </div>
       </div>
