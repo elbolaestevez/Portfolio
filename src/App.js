@@ -11,6 +11,9 @@ import { Route, Routes } from "react-router-dom";
 import MovieTmdb from "./components/projects/MovieTmdb";
 import ECommerceComida from "./components/projects/ECommerceComida";
 import Itesa from "./components/projects/Itesa";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function App() {
   const [language, setLanguage] = useState("spanish");
   const [content, setContent] = useState({});
@@ -34,6 +37,12 @@ function App() {
       setContent(Translation.spanish);
     }
   }, [language]);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 2500,
+    });
+  }, []);
 
   return (
     <div className="bg-[#0a192f] h-full">

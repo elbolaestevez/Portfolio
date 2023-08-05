@@ -1,12 +1,8 @@
 import React, { useState, useContext } from "react";
-
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { translatorwords } from "../context/translator";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-
-// import { Link } from "react-scroll";
 import { Link, useLocation } from "react-router-dom";
-
 import Santipdf from "../assets/Santiago2023.pdf";
 
 const Navbar = () => {
@@ -51,16 +47,16 @@ const Navbar = () => {
       )}
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="sm:hidden z-10">
+      {/* <div onClick={handleClick} className="sm:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
-      </div>
+      </div> */}
 
       {/* Mobile menu */}
       <ul
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "fixed z-50 top-0 left-0 w-full h-full bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">

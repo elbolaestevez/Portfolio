@@ -1,15 +1,18 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { translatorwords } from "../context/translator";
 import { data } from "../data/data.js";
+import { useMediaQuery } from "react-responsive";
 import { Link } from "react-router-dom";
+
 const Work = () => {
   const project = data;
-
-  const { setC, setL, language, content } = useContext(translatorwords);
+  const { content } = useContext(translatorwords);
+  const isDesktop = useMediaQuery({ minWidth: 768 });
+  useEffect(() => {}, [isDesktop]);
   return (
     <div
       name="work"
-      className="w-full sm:h-screen text-gray-300 bg-[#0a192f]"
+      className="w-full h-full text-gray-300 bg-[#0a192f]"
       id="work"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -24,14 +27,18 @@ const Work = () => {
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-2 sm:grid-cols-3 gap-4">
+        <div
+          className="grid sm:grid-cols-2 sm:grid-cols-3 gap-4"
+          data-aos={isDesktop ? "zoom-in" : null}
+          // data-aos-offset="-300"
+        >
           {/* Gird Item */}
           {project.map((item, index) => (
             <div
               key={index}
               style={{ backgroundImage: `url(${item.image})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div "
+              flex justify-center text-center items-center mx-auto content-div  "
             >
               {/* Hover effect for images */}
               <div className="opacity-0 group-hover:opacity-100 ">

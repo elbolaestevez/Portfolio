@@ -19,7 +19,7 @@ import Docker from "../assets/docker.png";
 import Aws from "../assets/aws.png";
 
 const Skills = () => {
-  const { setC, setL, language, content } = useContext(translatorwords);
+  const { content } = useContext(translatorwords);
   return (
     <div
       name="skills"
@@ -34,7 +34,11 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4  gap-4 text-center py-8">
+        <div
+          className="w-full grid grid-cols-2 sm:grid-cols-4  gap-4 text-center py-8"
+          data-aos-offset="400"
+          data-aos="zoom-in"
+        >
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-16 mx-auto" src={CSS} alt="HTML icon" />
             <p className="my-4">CSS</p>

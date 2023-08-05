@@ -1,9 +1,24 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { translatorwords } from "../context/translator";
 import Santi from "../assets/Santi.png";
+import Typed from "typed.js";
+
 const Home = () => {
-  const { setC, setL, language, content } = useContext(translatorwords);
+  const { setL, language, content } = useContext(translatorwords);
+
+  useEffect(() => {
+    const typed = new Typed("#name", {
+      strings: ["Full Stack Developer"],
+      typeSpeed: 150,
+      backSpeed: 150,
+      startDelay: 400,
+      backDelay: 2000,
+      loop: true,
+    });
+
+    return () => typed.destroy();
+  }, []);
 
   return (
     <div
@@ -32,16 +47,14 @@ const Home = () => {
         />
 
         <p className=" mx-auto text-[#8892b0] py-4"></p>
-        <header className="mb-16 group">
+        <div className="mb-16 group">
           <h1 className="mb-1 font-mono text-3xl  text-gray-100 sm:text-6xl text-center">
             <br className="block sm:hidden" />
-            <span className="sm:inline-flex  h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform text-center">
-              FullStack Developer
-            </span>
+            <span id="name" className="text-secondary"></span>
             👋
             <span className="box-border sm:inline-block w-1 h-10 ml-2 -mb-2 bg-white sm:-mb-4 sm:h-16 animate-cursor will-change-transform"></span>
           </h1>
-        </header>
+        </div>
         <div>
           <a className="w-full bg-yellow-300" href="#work">
             <button className="mx-auto text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">

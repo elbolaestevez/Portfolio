@@ -20,6 +20,9 @@
   background-position: center;
   height: 250px;
 }
+.aos-init[data-aos][data-aos].aos-animate {
+  transform: unset;
+}
 
 .content-div:hover {
   background-image: linear-gradient(
