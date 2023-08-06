@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { translatorwords } from "../context/translator";
-import Santi from "../assets/Santi.png";
+import Santi from "../assets/perfil.png";
 import Typed from "typed.js";
 
 const Home = () => {
