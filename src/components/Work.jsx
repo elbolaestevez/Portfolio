@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 const Work = () => {
   const project = data;
   const { content } = useContext(translatorwords);
+  console.log("content", content);
   const isDesktop = useMediaQuery({ minWidth: 768 });
   useEffect(() => {}, [isDesktop]);
   return (
@@ -45,7 +46,12 @@ const Work = () => {
                 <span className="text-2xl font bold text-white tracking-wider hover:bg-sky-700 ">
                   <Link to={item.name}>{item.name}</Link>
                 </span>
-                <p className="text-xs">{item.description}</p>
+                <p className="text-xs">
+                  {content.readme === "Leer"
+                    ? item.description
+                    : item.descriptionenglish}
+                </p>
+
                 <div className="pt-8 text-center ">
                   {/* eslint-disable-next-line */}
                   <a href={item.github} target="_blank">
